@@ -20,3 +20,9 @@ def is_valid_student_id(value: object) -> bool:
 def is_non_empty_text(value: object) -> bool:
     """Return True when *value* is a non-empty, non-whitespace string."""
     return isinstance(value, str) and bool(value.strip())
+
+
+def celsius_to_fahrenheit(celsius):
+    return celsius * 9 / 5 + 32
+
+

@@ -29,3 +29,8 @@ def test_non_empty_text_ignores_surrounding_whitespace():
     assert is_non_empty_text("  hello  ")
     assert not is_non_empty_text("   ")
     assert not is_non_empty_text(None)
+
+
+def test_celsius_to_fahrenheit():
+    assert celsius_to_fahrenheit(0)==32
+    assert celsius_to_fahrenheit(100)==212
