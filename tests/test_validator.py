@@ -9,7 +9,10 @@ from validator import is_non_empty_text, is_valid_email, is_valid_student_id
 def test_accepts_valid_email(email):
     assert is_valid_email(email)
 
-
+@pytest.mark.parametrize("email", ["student@example.com", "a.b+lab@school.edu.vn"])
+def test_accepts_valid_email(email):
+    assert is_valid_email(email) 
+    
 @pytest.mark.parametrize("email", ["student", "@example.com", "a@localhost", "", None])
 def test_rejects_invalid_email(email):
     assert not is_valid_email(email)
