@@ -1,6 +1,6 @@
 # GitHub Open Source Lab Report
 
-> Thay nội dung trong dấu `<...>` bằng thông tin và đường dẫn thật sau khi hoàn
+> Thay nội dung đasadsa sau khi hoàn
 > thành thao tác GitHub.
 
 ## 1. Tôi đã đóng vai trò gì?
