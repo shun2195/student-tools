@@ -56,3 +56,5 @@ khi push.
 
 Tôi sẽ thêm CI bắt buộc chạy test cho mọi PR, Issue/PR template, bảo vệ branch
 `main`, yêu cầu ít nhất một approval, tự động lint và dùng semantic versioning.
+#11
+test nhé nhé toànn
